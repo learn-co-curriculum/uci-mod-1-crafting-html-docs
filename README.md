@@ -1,19 +1,19 @@
 # Crafting HTML Documents
 
-## Problem Statement
+## Learning Goals
+
+- Identify patterns around tags, markup, and content
+- Define the document type tag: `<doctype>`
+- Define the HTML content area with the `<html>`, `<head>`, and `<body>` tags
+- Recognize an HTML comment
+- Identify the most-common HTML elements
+
+## Introduction
 
 So far we've been introduced to a lot of vocabulary and have had an
 "experience" writing HTML.
 
 In this lesson we're going to introduce you to some more essential HTML tags.
-
-## Objectives
-
-1. Identify patterns around tags, markup, and content
-2. Define the document type tag: `<doctype>`
-3. Define the HTML Content Area with the `<html>`, `<head>`, and `<body>` tag
-4. Recognize an HTML Comment
-5. Introduce the Most-Common HTML Elements
 
 ## Identify Patterns Around Tags, Markup, And Content
 
@@ -28,7 +28,7 @@ languages, markup languages like HTML can't process logic. You can't write in HT
 "print this line 3 times" or "if it's Thursday, make the heading 'Baloney
 Sandwiches for Lunch!'"
 
-#### Tags
+### Tags
 
 HTML consists of different markup _elements_ which are comprised of _markup_
 that "wraps" _content_.  For example, say we wanted `Hello World` to appear as
@@ -43,7 +43,7 @@ code:
 Tags, like our `p` tags above, won't be displayed in the browser. Instead, they
 affect how the content itself is displayed.
 
-#### Attributes
+### Attributes
 
 We can also add `attributes` inside of the opening tag. For example, the `a`
 element, which is used for links, has an `href` attribute to specify the
@@ -61,7 +61,7 @@ This would render as:
 Attributes will become especially important as we start working with the
 Cascading Style Sheets (CSS) to make our pages look better.
 
-#### Nesting of Elements
+### Nesting of Elements
 
 We also frequently nest elements inside of each other. To have a link displayed
 as a separate paragraph, we could nest an `a` element inside of a `p`.
@@ -74,7 +74,7 @@ This would render as:
 
 This [link](http://www.google.com) will be a part of a separate paragraph.
 
-## Define The Document Type Tag: `<doctype>`
+## Define the Document Type Tag: `<doctype>`
 
 In the following steps we're going to create an HTML file. You might want to
 use your Sandbox and type along.
@@ -104,7 +104,7 @@ To use HTML5, the current up-to-date version, we can simply write
 
 ```
 
-## Define The HTML Content Area With The `<html>`, `<head>`, And `<body>` Tag
+## Define the HTML Content Area with the `<html>`, `<head>`, and `<body>` Tags
 
 Next, we add an opening and closing `html` tag. This tells the web browser to
 interpret everything inside the tags as HTML code.
@@ -156,12 +156,12 @@ Top 5 Pizza Places in NYC
 Once this basic skeleton is in place, we're ready to start introducing content
 that we can mark-up with HTML.
 
-### Introduce the Most-Common HTML Elements
+## Identify the Most-Common HTML Elements
 
 We've already looked at some common HTML elements, such as `a` and `p`. Let's
 take a look at some more HTML elements.
 
-#### Headers
+### Headers
 
 HTML gives us access to different header elements, ranging from `h1` to `h6`,
 with `h1` being the largest and `h6` being the smallest.
@@ -180,7 +180,7 @@ These would render as:
 In addition to changing how the text is displayed, search engines use headers
 to help determine what a web page is about.
 
-#### Images
+### Images
 
 We can embed images on our web pages using the `img` element. The `img` element
 doesn't have a closing tag. The `src` attribute tells the browser where to find
@@ -203,7 +203,7 @@ write:
 
 `<img src="URL_TO_IMAGE" alt="Picture of a Dog"></img>`
 
-#### Lists
+### Lists
 
 We can make bulleted, or unordered lists, using opening and closing `ul` tags.
 Inside, we can nest an `li`, or "list item" element for each item on our list.
