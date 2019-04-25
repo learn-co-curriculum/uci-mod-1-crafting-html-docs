@@ -13,16 +13,16 @@
 So far we've been introduced to a lot of vocabulary and have had an
 "experience" writing HTML.
 
-In this lesson we're going to introduce you to some more essential HTML tags.
+In this lesson, we're going to introduce you to some more essential HTML tags.
 
 ## Identify Patterns Around Tags, Markup, And Content
 
 Every web page you've ever seen in a browser is the rendered output of HTML
 that was requested by a browser.
 
-HTML, or HyperText Markup Language, is a markup language which describes the
+HTML, or HyperText Markup Language, is a markup language that describes the
 structure and meaning of web content. Web browsers, such as Mozilla Firefox,
-Internet Explorer, and Google Chrome interpret the HTML code and use it to
+Internet Explorer and Google Chrome interpret the HTML code and use it to
 create rendered output. Unlike Ruby, JavaScript and other programming
 languages, markup languages like HTML can't process logic. You can't write in HTML:
 "print this line 3 times" or "if it's Thursday, make the heading 'Baloney
@@ -31,9 +31,9 @@ Sandwiches for Lunch!'"
 ### Tags
 
 HTML consists of different markup _elements_ which are comprised of _markup_
-that "wraps" _content_.  For example, say we wanted `Hello World` to appear as
+that "wraps" _content_. For example, say we wanted `Hello World` to appear as
 a paragraph. We could use the `p` tag, which consists of an opening `p` tag
-and a closing `p` tag. The content wrapped is `Hello World`. Here's the HTML
+and a closing `p` tag. The wrapped content is `Hello World`. Here's the HTML
 code:
 
 ```html
@@ -45,7 +45,7 @@ affect how the content itself is displayed.
 
 ### Attributes
 
-We can also add `attributes` inside of the opening tag. For example, the `a`
+We can also add `attributes` inside the opening tag. For example, the `a`
 element, which is used for links, has an `href` attribute to specify the
 destination address of the link. If we wanted to link to
 `www.flatironschool.com`, we could do so as follows:
@@ -58,7 +58,7 @@ This would render as:
 
 [Flatiron School](http://www.flatironschool.com)
 
-Attributes will become especially important as we start working with the
+Attributes will become especially important as we start working with
 Cascading Style Sheets (CSS) to make our pages look better.
 
 ### Nesting of Elements
@@ -76,12 +76,12 @@ This [link](http://www.google.com) will be a part of a separate paragraph.
 
 ## Define the Document Type Tag: `<doctype>`
 
-In the following steps we're going to create an HTML file. You might want to
+In the following steps, we're going to create an HTML file. You might want to
 use your Sandbox and type along.
 
 We'd like to introduce you to a new tag, a tag that defines the _entire_ HTML
-document. Its called the `doctype` tag. The HTML standard says that all HTML
-documents begin with a "doctype declaration" tag. It should go very first.
+document. It's called the `doctype` tag. The HTML standard says that all HTML
+documents begin with a "doctype declaration" tag. It should go first.
 
 If one is missing, most browsers pretend one is there, but you should always be
 explicit and define it yourself.
@@ -140,12 +140,12 @@ contains the actual content.
 ## Recognize an HTML Comment
 
 Let's also take a brief moment to recognize how to add comments into an HTML
-document.  These won't get rendered to the browser at all: they're just helpful
-notes for the author. We included two in the pevious section, they begin with
+document. These won't get rendered to the browser at all: they're just helpful
+notes for the author. We included two in the previous section, they begin with
 `<!--` and end with `-->`.
 
 ```html
-<!-- NYC Pizza is world-famous, cheap, and loved by both vermin and human like! -->
+<!-- NYC Pizza is world-famous, cheap, and loved by both vermin and human alike! -->
 <p>Top 5 Pizza Places in NYC</p>
 ```
 
@@ -190,7 +190,7 @@ and also describes the image to search engines.
 The `alt` tag presents a moment to talk about an important principle behind Tim
 Berners-Lee's vision for the Web: it is _inclusive_. If you're using assistive
 technologies because you have a sight impairment, you shouldn't be cut off from
-the web.  If you're in a remote community where internet access is expensive,
+the web. If you're in a remote community where internet access is expensive,
 you might choose to disable images, but not lose the web.
 
 While an `img` will "work," honoring the Web's vision for openness and
@@ -206,7 +206,7 @@ write:
 ### Lists
 
 We can make bulleted, or unordered lists, using opening and closing `ul` tags.
-Inside, we can nest an `li`, or "list item" element for each item on our list.
+Inside, we can nest a `li`, or "list item" element for each item on our list.
 
 ```html
 <h5>My Favorite Things in No Particular Order</h5>
@@ -257,12 +257,12 @@ ____
 
 ## Conclusion
 
-With this you now have the knowledge to craft your own, simple HTML documents.
+With this, you now have the knowledge to craft your own, simple HTML documents.
 You should be feeling comfortable with the concepts of markup, tags, and
 content. You've had some practice seeing HTML change rendered text.
 
-With this lesson we've rolled in some of the "formal rules" of HTML.
-While browsers _generally_ do a great job guessing what you
-meant, we want to follow the guidelines to make sure we don't get any surprises.
+In this lesson, we've rolled in some of the "formal rules" of HTML. While
+browsers _generally_ do a great job guessing what you meant, we want to follow
+the guidelines to make sure we don't get any surprises.
 
 Keep practicing!
